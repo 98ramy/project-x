@@ -1,0 +1,81 @@
+*{
+	margin: 0px;
+}
+
+.continar{
+	width: 120px;
+	height: 100vh;
+	background: red;
+	color: aliceblue;
+}
+
+.continar p{
+	margin: 5px;
+}
+
+.continar p:hover , button:hover{
+	background: black;
+	cursor: pointer
+}
+
+button{
+	background: red;
+	color: aliceblue;
+	border: none;
+	border-radius: 5px;
+}
+
+#close{
+	position: absolute;
+	left: 125px
+}
+
+.hidde{
+	display: none;
+}
+
+/**
+.continar{
+    display: grid;
+    
+    grid-template-columns: 
+        repeat(4,1fr)
+        /** 1fr 1fr **/
+        /** 50% 50% **/;
+    /**
+    grid-auto-rows: minmax(200px,auto);
+    
+    grid-gap: 20px 10px;
+    
+    /**
+    grid-column-gap: 10px;
+    
+    grid-row-gap: 10px;
+    
+    
+    grid-template-rows: 
+    /** repeat(2,200px) **/
+    /** 200px 200px 200px **/;
+    /**
+    justify-items: end;
+    align-items: end
+    **/
+}
+/**
+.box{
+    background-color: deepskyblue;
+    width: 30px;
+    height: 30px;
+}
+
+**/
+
+/**
+.box-01{
+    grid-column: 1/3;
+}
+
+.box-03{
+    grid-row: 2/4
+}
+**/
